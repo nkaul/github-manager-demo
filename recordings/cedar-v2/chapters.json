@@ -1,0 +1,194 @@
+[
+  {
+    "id": "01",
+    "title": "Welcome and GitHub sign-in",
+    "start": 0.0,
+    "end": 43.96
+  },
+  {
+    "id": "02",
+    "title": "Sync inventory and understand access",
+    "start": 43.96,
+    "end": 91.24
+  },
+  {
+    "id": "03",
+    "title": "Search, filters, pagination and KPIs",
+    "start": 91.24,
+    "end": 134.16
+  },
+  {
+    "id": "04",
+    "title": "Latest Work and private evidence",
+    "start": 134.16,
+    "end": 177.08
+  },
+  {
+    "id": "05",
+    "title": "Inspect real repository evidence",
+    "start": 177.08,
+    "end": 224.2
+  },
+  {
+    "id": "06",
+    "title": "Choose a taxonomy cohort and preview",
+    "start": 224.2,
+    "end": 268.44
+  },
+  {
+    "id": "07",
+    "title": "Review, save and publish taxonomy",
+    "start": 268.44,
+    "end": 314.64
+  },
+  {
+    "id": "08",
+    "title": "Classify and review individual suggestions",
+    "start": 314.64,
+    "end": 359.12
+  },
+  {
+    "id": "09",
+    "title": "Grouped and selected review",
+    "start": 359.12,
+    "end": 404.16
+  },
+  {
+    "id": "10",
+    "title": "Durable analysis and offline reconciliation",
+    "start": 404.16,
+    "end": 450.72
+  },
+  {
+    "id": "11",
+    "title": "Explicit taxonomy and classification re-analysis",
+    "start": 450.72,
+    "end": 496.0
+  },
+  {
+    "id": "12",
+    "title": "Browse all taxonomy facets",
+    "start": 496.0,
+    "end": 540.32
+  },
+  {
+    "id": "13",
+    "title": "Drag one or several repositories",
+    "start": 540.32,
+    "end": 588.92
+  },
+  {
+    "id": "14",
+    "title": "Bulk edits and accessible alternatives",
+    "start": 588.92,
+    "end": 634.04
+  },
+  {
+    "id": "15",
+    "title": "Create and edit canonical content",
+    "start": 634.04,
+    "end": 679.96
+  },
+  {
+    "id": "16",
+    "title": "Merge and archive with dependencies",
+    "start": 679.96,
+    "end": 719.44
+  },
+  {
+    "id": "17",
+    "title": "Repair taxonomy conflicts before publication",
+    "start": 719.44,
+    "end": 767.48
+  },
+  {
+    "id": "18",
+    "title": "Rules and both reorganization modes",
+    "start": 767.48,
+    "end": 809.36
+  },
+  {
+    "id": "19",
+    "title": "Fixed allowance and selective overrides",
+    "start": 809.36,
+    "end": 855.0
+  },
+  {
+    "id": "20",
+    "title": "Adaptive budgets and saved run defaults",
+    "start": 855.0,
+    "end": 898.44
+  },
+  {
+    "id": "21",
+    "title": "Configure and verify automatic organization",
+    "start": 898.44,
+    "end": 942.68
+  },
+  {
+    "id": "22",
+    "title": "Choose your zen logo and motion",
+    "start": 942.68,
+    "end": 989.84
+  },
+  {
+    "id": "23",
+    "title": "Phone navigation and keyboard use",
+    "start": 989.84,
+    "end": 1030.88
+  },
+  {
+    "id": "24",
+    "title": "Reload, sign-out and backend restart",
+    "start": 1030.88,
+    "end": 1078.96
+  },
+  {
+    "id": "25",
+    "title": "Rediscovery remains a reviewed proposal",
+    "start": 1078.96,
+    "end": 1130.56
+  },
+  {
+    "id": "26",
+    "title": "Reset preview and exact confirmation",
+    "start": 1130.56,
+    "end": 1175.2
+  },
+  {
+    "id": "27",
+    "title": "AI-only reset and preserved decisions",
+    "start": 1175.2,
+    "end": 1221.88
+  },
+  {
+    "id": "28",
+    "title": "Partial Domain reset",
+    "start": 1221.88,
+    "end": 1264.56
+  },
+  {
+    "id": "29",
+    "title": "Full taxonomy reset and rebuild",
+    "start": 1264.56,
+    "end": 1314.16
+  },
+  {
+    "id": "30",
+    "title": "Run history, exclusions and honest outcomes",
+    "start": 1314.16,
+    "end": 1359.04
+  },
+  {
+    "id": "31",
+    "title": "Readiness evidence and boundaries",
+    "start": 1359.04,
+    "end": 1406.72
+  },
+  {
+    "id": "32",
+    "title": "The everyday workflow",
+    "start": 1406.72,
+    "end": 1451.64
+  }
+]

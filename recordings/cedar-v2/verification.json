@@ -1,0 +1,37 @@
+{
+  "recording": {
+    "title": "GitHub Manager — complete local walkthrough",
+    "date": "2026-10-13",
+    "voice": "Cedar",
+    "narration": "AI-generated · Option D, calmer delivery",
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "duration_seconds": 1451.64,
+    "chapters": 32,
+    "caption_cues": 390,
+    "unmasked_real_account": true
+  },
+  "recorded_local_validation": {
+    "status": "PASS",
+    "feature_assertions": 117,
+    "chapter_seeks": 32,
+    "audio_lufs": -16.2,
+    "audio_true_peak_dbtp": -1.93,
+    "measured_spoken_wpm": 132.4,
+    "normal_speed_actions": true,
+    "speech_time_stretch": false,
+    "note": "Historical recording checks, distinct from hosted site checks. Automated playback does not assess subjective voice quality."
+  },
+  "hosted_playback": {
+    "status": "PENDING",
+    "date": null,
+    "chapter_seeks": 0
+  },
+  "boundaries": [
+    "Live real-account opening; edits and reset use a labeled workspace copy.",
+    "Fresh model tests use only two named public repositories.",
+    "Private README content is excluded from model input.",
+    "Cloud application runtime remains deferred."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "recording": "Cedar v2",
+  "source_preserved": true,
+  "files": [
+    {
+      "path": "recordings/cedar-v2/github-manager-full-cedar-calm-1080p.mp4",
+      "bytes": 62568111,
+      "sha256": "797466bc4008cf69869dc6e6a9f39b31a79152d2ec27a08fc0c36796b0d0047c",
+      "copied_without_reencoding": true
+    },
+    {
+      "path": "recordings/cedar-v2/github-manager-full-cedar-calm.m4a",
+      "bytes": 25125762,
+      "sha256": "72a6213e344c3ef36bf91b58b68d8ac6a52238a9109d4a326dad09ba62187dbb",
+      "copied_without_reencoding": true
+    },
+    {
+      "path": "recordings/cedar-v2/poster.jpg",
+      "bytes": 115205,
+      "sha256": "279d4970a70e37d147aeb7f394ba098f596c9475a00017b43dae6f976de1d95e",
+      "copied_without_reencoding": true
+    },
+    {
+      "path": "recordings/cedar-v2/full-demo.vtt",
+      "bytes": 31733,
+      "sha256": "a04b1cab51f8c55221b01df201f3a59f867a950686b798e2c6d41853a32f8f59",
+      "copied_without_reencoding": true
+    },
+    {
+      "path": "recordings/cedar-v2/full-demo.srt",
+      "bytes": 33177,
+      "sha256": "de4402114b1ef23f3fdf7709bff38edd9f70971ef1e701db283ee3bb53134541",
+      "copied_without_reencoding": true
+    },
+    {
+      "path": "recordings/cedar-v2/transcript.md",
+      "bytes": 22137,
+      "sha256": "6133d6444d410991a098449ae0da77adc4e6e124da9df44cf238fb8fe21e484a",
+      "copied_without_reencoding": true
+    }
+  ]
+}
