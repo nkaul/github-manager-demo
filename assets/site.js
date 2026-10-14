@@ -1,5 +1,23 @@
 'use strict';
 (() => {
+  const motion = document.getElementById('motion-toggle');
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  let pausePreference = false;
+  try {pausePreference = localStorage.getItem('ghm-demo-motion') === 'paused';} catch {}
+  function renderMotion() {
+    const paused = pausePreference || reduced.matches;
+    document.body.classList.toggle('motion-paused', paused);
+    motion.setAttribute('aria-pressed', String(paused));
+    motion.textContent = reduced.matches ? 'Reduced motion enabled' : paused ? 'Play logo animation' : 'Pause logo animation';
+    motion.disabled = reduced.matches;
+  }
+  motion.addEventListener('click', () => {
+    pausePreference = !pausePreference;
+    try {localStorage.setItem('ghm-demo-motion', pausePreference ? 'paused' : 'playing');} catch {}
+    renderMotion();
+  });
+  reduced.addEventListener('change', renderMotion);
+  renderMotion();
   const video = document.getElementById('video');
   if (!video) return;
   const audio = document.getElementById('audio');
@@ -77,24 +95,6 @@
     const empty = document.getElementById('chapter-empty');
     if (empty) empty.hidden = visible > 0;
   });
-  const motion = document.getElementById('motion-toggle');
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  let pausePreference = false;
-  try {pausePreference = localStorage.getItem('ghm-demo-motion') === 'paused';} catch {}
-  function renderMotion() {
-    const paused = pausePreference || reduced.matches;
-    document.body.classList.toggle('motion-paused', paused);
-    motion.setAttribute('aria-pressed', String(paused));
-    motion.textContent = reduced.matches ? 'Reduced motion enabled' : paused ? 'Play logo animation' : 'Pause logo animation';
-    motion.disabled = reduced.matches;
-  }
-  motion.addEventListener('click', () => {
-    pausePreference = !pausePreference;
-    try {localStorage.setItem('ghm-demo-motion', pausePreference ? 'paused' : 'playing');} catch {}
-    renderMotion();
-  });
-  reduced.addEventListener('change', renderMotion);
-  renderMotion();
   fetch('recordings/cedar-v2/chapters.json').then(response => {
     if (!response.ok) throw new Error('Chapter list unavailable');
     return response.json();

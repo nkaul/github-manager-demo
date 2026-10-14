@@ -4,6 +4,8 @@ A public, static showcase for the GitHub Manager local MVP.
 
 **Watch:** https://nkaul.github.io/github-manager-demo/
 
+**Deep dive:** https://nkaul.github.io/github-manager-demo/deep-dive/ — system design video overview and architecture podcast, both embedded from the owner’s public Google Drive links. No copy of either new recording is hosted in this repository.
+
 The full Cedar walkthrough includes 32 chapters, English captions, a transcript, standalone audio and downloadable 1080p video. Narration is AI-generated. The recording uses a real account, with copy-only edits and resets; see the [recording notes](recordings/cedar-v2/recording-notes.html).
 
 ## Publishing
