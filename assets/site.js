@@ -8,7 +8,7 @@
     const paused = pausePreference || reduced.matches;
     document.body.classList.toggle('motion-paused', paused);
     motion.setAttribute('aria-pressed', String(paused));
-    motion.textContent = reduced.matches ? 'Reduced motion enabled' : paused ? 'Play logo animation' : 'Pause logo animation';
+    motion.textContent = reduced.matches ? 'Reduced motion enabled' : paused ? 'Play animations' : 'Pause animations';
     motion.disabled = reduced.matches;
   }
   motion.addEventListener('click', () => {
