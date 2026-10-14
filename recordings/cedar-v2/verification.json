@@ -24,9 +24,24 @@
     "note": "Historical recording checks, distinct from hosted site checks. Automated playback does not assess subjective voice quality."
   },
   "hosted_playback": {
-    "status": "PENDING",
-    "date": null,
-    "chapter_seeks": 0
+    "status": "PASS",
+    "date": "2026-10-13",
+    "browser": "Chromium",
+    "chapter_seeks": 32,
+    "caption_cues": 390,
+    "range_status": 206,
+    "width": 1920,
+    "height": 1080,
+    "fullscreen": "PASS",
+    "audio_only": "PASS",
+    "responsive_desktop_and_phone": "PASS",
+    "direct_chapter_links": "PASS",
+    "keyboard_and_reduced_motion": "PASS",
+    "public_assets_checked": 18,
+    "downloaded_assets_sha256_matches": 6,
+    "page_errors": 0,
+    "tested_content_commit": "2217dbccf83815447ece9f1976b8e2a9c90f2b6f",
+    "note": "Automated playback is muted. Safari/WebKit is not installed; those engines and subjective listening were not freshly validated."
   },
   "boundaries": [
     "Live real-account opening; edits and reset use a labeled workspace copy.",
